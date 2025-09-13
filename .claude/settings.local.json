@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.researchgate.net)",
+      "WebFetch(domain:scholar.google.ca)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
