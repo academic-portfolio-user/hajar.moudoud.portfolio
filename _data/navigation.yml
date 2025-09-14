@@ -11,23 +11,23 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Students"
+    url: /#people
 
   - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
-    
+    url: /teaching/
+
+  - title: "Events"
+    url: /events/
+
+  # Hidden navigation items - comment out to hide:
   # - title: "CV"
-  #   url: /cv-json/
-    
-  - title: "Guide"
-    url: /markdown/
+  #   url: /cv/
+  # - title: "Talks"
+  #   url: /talks/
+  # - title: "Portfolio"
+  #   url: /portfolio/
+  # - title: "Blog Posts"
+  #   url: /year-archive/
+  # - title: "Guide"
+  #   url: /markdown/
