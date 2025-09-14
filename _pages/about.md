@@ -1,4 +1,5 @@
 ---
+layout: home
 permalink: /
 title: "Hajar Moudoud"
 author_profile: true
@@ -31,22 +32,6 @@ My research has been published in top-tier venues and I have established collabo
 * **Ph.D.** in Engineering, University of Sherbrooke, Canada, 2022
 * **State Engineering Degree** in Computer Science, Mohammadia Engineering School, Morocco, 2018
 
-## Students
-
-I am proud to supervise a diverse group of talented graduate students working on cutting-edge cybersecurity research.
-
-### Ph.D. Students
-
-* **Sarah Chen** - *Blockchain-based Security Frameworks for IoT Networks*
-* **Ahmed Rahman** - *AI-driven Threat Detection in 5G Networks*
-* **Maria Gonzalez** - *Federated Learning for Privacy-preserving Cybersecurity*
-
-### Master's Students
-
-* **David Kim** - *Machine Learning Applications in Network Intrusion Detection*
-* **Elena Popov** - *Secure Edge Computing for Industrial IoT*
-* **Thomas Martin** - *Quantum-resistant Cryptography Implementation*
-* **Fatima Al-Zahra** - *Blockchain Integration in Supply Chain Security*
 
 ## Teaching
 

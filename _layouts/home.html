@@ -4,15 +4,16 @@ layout: default
 
 {% include base_path %}
 
-<div id="main" role="main" class="flexible-two-column-layout">
-  <div class="two-column-container">
-    <!-- Left Column: Profile -->
-    <div class="profile-column">
+<div id="main" role="main" class="academic-layout">
+  <!-- First Row: Profile and Bibliography -->
+  <div class="main-content-row">
+    <!-- Profile Column (33%) -->
+    <div class="profile-section">
       {% include author-profile.html %}
     </div>
 
-    <!-- Right Column: Content -->
-    <div class="content-column">
+    <!-- Bibliography/Content Column (60%) -->
+    <div class="bibliography-section">
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
         <div class="page__inner-wrap">
           <section class="page__content" itemprop="text">
@@ -20,6 +21,95 @@ layout: default
           </section>
         </div>
       </article>
+    </div>
+  </div>
+
+  <!-- Second Row: Students Section -->
+  <div class="students-section">
+    <div class="students-container">
+      <h2>Students</h2>
+
+      <!-- PhD Students -->
+      <div class="student-group">
+        <h3>Ph.D. Students</h3>
+        <div class="students-grid">
+          <div class="student-card">
+            <div class="student-avatar">
+              <img src="{{ base_path }}/images/bio-photo.jpg" alt="Sarah Chen" class="student-photo">
+            </div>
+            <div class="student-info">
+              <h4>Sarah Chen</h4>
+              <p>Blockchain-based Security Frameworks for IoT Networks</p>
+            </div>
+          </div>
+
+          <div class="student-card">
+            <div class="student-avatar">
+              <img src="{{ base_path }}/images/bio-photo.jpg" alt="Ahmed Rahman" class="student-photo">
+            </div>
+            <div class="student-info">
+              <h4>Ahmed Rahman</h4>
+              <p>AI-driven Threat Detection in 5G Networks</p>
+            </div>
+          </div>
+
+          <div class="student-card">
+            <div class="student-avatar">
+              <img src="{{ base_path }}/images/bio-photo.jpg" alt="Maria Gonzalez" class="student-photo">
+            </div>
+            <div class="student-info">
+              <h4>Maria Gonzalez</h4>
+              <p>Federated Learning for Privacy-preserving Cybersecurity</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Master's Students -->
+      <div class="student-group">
+        <h3>Master's Students</h3>
+        <div class="students-grid">
+          <div class="student-card">
+            <div class="student-avatar">
+              <img src="{{ base_path }}/images/bio-photo.jpg" alt="David Kim" class="student-photo">
+            </div>
+            <div class="student-info">
+              <h4>David Kim</h4>
+              <p>Machine Learning Applications in Network Intrusion Detection</p>
+            </div>
+          </div>
+
+          <div class="student-card">
+            <div class="student-avatar">
+              <img src="{{ base_path }}/images/bio-photo.jpg" alt="Elena Popov" class="student-photo">
+            </div>
+            <div class="student-info">
+              <h4>Elena Popov</h4>
+              <p>Secure Edge Computing for Industrial IoT</p>
+            </div>
+          </div>
+
+          <div class="student-card">
+            <div class="student-avatar">
+              <img src="{{ base_path }}/images/bio-photo.jpg" alt="Thomas Martin" class="student-photo">
+            </div>
+            <div class="student-info">
+              <h4>Thomas Martin</h4>
+              <p>Quantum-resistant Cryptography Implementation</p>
+            </div>
+          </div>
+
+          <div class="student-card">
+            <div class="student-avatar">
+              <img src="{{ base_path }}/images/bio-photo.jpg" alt="Fatima Al-Zahra" class="student-photo">
+            </div>
+            <div class="student-info">
+              <h4>Fatima Al-Zahra</h4>
+              <p>Blockchain Integration in Supply Chain Security</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
