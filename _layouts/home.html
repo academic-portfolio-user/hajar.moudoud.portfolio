@@ -24,6 +24,30 @@ layout: default
     </div>
   </div>
 
+  <!-- News Section -->
+  <div class="news-section" id="news">
+    <div class="news-container">
+      <h2>Recent News</h2>
+      <div class="news-list">
+        {% assign recent_news = site.news | sort: "date" | reverse | limit: 3 %}
+        {% for news_item in recent_news %}
+        <div class="news-item">
+          <div class="news-date">
+            {{ news_item.date | date: "%B %Y" }}
+          </div>
+          <div class="news-content">
+            <h3>{{ news_item.title }}</h3>
+            <p>{{ news_item.excerpt | default: news_item.content | strip_html | truncate: 200 }}</p>
+            {% if news_item.content != news_item.excerpt %}
+            <a href="{{ news_item.url | relative_url }}" class="read-more">Read more →</a>
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
   <!-- Second Row: Students Section -->
   <div class="students-section" id="people">
     <div class="students-container">

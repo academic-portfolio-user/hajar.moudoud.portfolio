@@ -2123,6 +2123,109 @@
 
 
 /*
+   News Section
+   ========================================================================== */
+
+.news-section {
+  background: var(--global-bg-color);
+  padding: 4em 0;
+  border-top: 1px solid var(--global-border-color);
+}
+
+.news-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2em;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 3em;
+    font-size: $type-size-2;
+    color: var(--global-text-color);
+    font-weight: 600;
+  }
+}
+
+.news-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.news-item {
+  display: flex;
+  gap: 2em;
+  padding: 2em;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 8px;
+  border: 1px solid var(--global-border-color);
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 1em;
+    padding: 1.5em;
+  }
+
+  .news-date {
+    flex: 0 0 120px;
+    font-size: $type-size-6;
+    color: var(--global-link-color);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+
+    @media (max-width: 768px) {
+      flex: none;
+      font-size: $type-size-7;
+    }
+  }
+
+  .news-content {
+    flex: 1;
+
+    h3 {
+      font-size: $type-size-4;
+      color: var(--global-text-color);
+      margin: 0 0 0.8em 0;
+      font-weight: 600;
+      line-height: 1.3;
+
+      @media (max-width: 768px) {
+        font-size: $type-size-5;
+      }
+    }
+
+    p {
+      font-size: $type-size-6;
+      color: var(--global-text-color-light);
+      line-height: 1.5;
+      margin: 0 0 1em 0;
+    }
+
+    .read-more {
+      color: var(--global-link-color);
+      text-decoration: none;
+      font-size: $type-size-6;
+      font-weight: 500;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: var(--global-link-color-hover);
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+/*
    Contact Page
    ========================================================================== */
 

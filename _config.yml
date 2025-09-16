@@ -236,6 +236,9 @@ collections:
   events:
     output: true
     permalink: /:collection/:path/
+  news:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -305,6 +308,14 @@ defaults:
   - scope:
       path: ""
       type: events
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _news
+  - scope:
+      path: ""
+      type: news
     values:
       layout: single
       author_profile: true

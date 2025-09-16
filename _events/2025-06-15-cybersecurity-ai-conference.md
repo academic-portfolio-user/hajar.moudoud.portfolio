@@ -3,7 +3,7 @@ title: "International Conference on Cybersecurity and AI"
 date: 2025-06-15
 venue: "UQO: Advanced Cybersecurity Research"
 location: "Gatineau, QC"
-type: "featured"
+type: "regular"
 logo: "uqo-logo.png"
 order: 1
 ---
