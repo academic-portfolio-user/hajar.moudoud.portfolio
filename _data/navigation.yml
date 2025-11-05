@@ -14,9 +14,6 @@ main:
   - title: "Students"
     url: /#people
 
-  - title: "Teaching"
-    url: /teaching/
-
   - title: "Events"
     url: /events/
 
@@ -34,3 +31,6 @@ main:
   #   url: /year-archive/
   # - title: "Guide"
   #   url: /markdown/
+  #  - title: "Teaching"
+  #    url: /teaching/
+
